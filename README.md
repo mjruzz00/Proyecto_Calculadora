@@ -54,9 +54,13 @@ Mostrar el resultado de la división con los valores seleccionados
 Seleccionar cambiar valores
 
 • Apagar calculadora
+
 Seleccionar apagar calculadora
 
 • Resultado
+
 Elegir el primer valor
+
 Elegir el segundo valor
+
 Obtener el resultado de la opreación seleccionada 
