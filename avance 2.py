@@ -11,7 +11,7 @@ while True:
           2)Restar los dos valores
           3)Multiplicar los dos valores
           4)Dividir los dos valores
-          5)Porcentajr de dos valores
+          5)Porcentaje de dos valores
           6)Cambiar los dos valores
           7)Apagar calculadora
           """)
@@ -31,11 +31,11 @@ while True:
         print("RESULTADO: la división de" ,n1, "/" ,n2, "es igual a",n1/n2)
     elif opcion == 5:
         print(" ")
-        print("RESULTADO: el porcentaje de" ,n1, "*" ,n2, "/100" , "es igual a",n1*n2/100)    
+        print("RESULTADO: el porcentaje de" ,n1, "*" ,n2, "/100" , "es igual a",n1*n2/100)
     elif opcion == 6:
         n1= float(input("Introduce tu primer valor: ") )
         n2= float(input("Introduce tu segundo valor: ") )
-    elif opcion == :
+    elif opcion == 7:
         break
     else:
         print("Opcioón Incorrecta")
