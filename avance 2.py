@@ -1,5 +1,8 @@
-n1 = float(input("Introduce el primer número: ") )
-n2 = float(input("Introduce el segundo número: ") )
+def pide_valor():
+    n1 = float(input("Introduce el primer número: ") )
+    n2 = float(input("Introduce el segundo número: ") )
+    return n1,n2
+n1,n2=pide_valor()
 
 opcion=0
 while True:
@@ -13,7 +16,7 @@ while True:
           4)Dividir los dos valores
           5)Porcentaje de dos valores
           6)Cambiar los dos valores
-          7)Apagar calculadora
+          7)Salir de la calculadora
           """)
     opcion = int(input("Escoge una opción: ") )
 
@@ -33,11 +36,10 @@ while True:
         print(" ")
         print("RESULTADO: el porcentaje de" ,n1, "*" ,n2, "/100" , "es igual a",n1*n2/100)
     elif opcion == 6:
-        n1= float(input("Introduce tu primer valor: ") )
-        n2= float(input("Introduce tu segundo valor: ") )
+        n1,n2=pide_valor()
     elif opcion == 7:
-        break
+        print("Salir de la calculadora")
+        print(quit())
     else:
         print("Opcioón Incorrecta")
-        
     
