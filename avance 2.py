@@ -9,14 +9,14 @@ while True:
 
     print("""
           Dime, ¿Qué quieres hacer?
-
           1)Sumar los dos valores
           2)Restar los dos valores
           3)Multiplicar los dos valores
           4)Dividir los dos valores
           5)Porcentaje de dos valores
           6)Cambiar los dos valores
-          7)Salir de la calculadora
+          7)Lista de datos
+          8)Salir de la calculadora
           """)
     opcion = int(input("Escoge una opción: ") )
 
@@ -38,8 +38,11 @@ while True:
     elif opcion == 6:
         n1,n2=pide_valor()
     elif opcion == 7:
+        mylist = [n1,n2]
+        print ("Lista Completa")
+        print (mylist)
+    elif opcion == 8:
         print("Salir de la calculadora")
         print(quit())
     else:
-        print("Opcioón Incorrecta")
-    
+        print("Opción Incorrecta")
